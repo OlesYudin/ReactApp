@@ -1,0 +1,15 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    background: #2e159b;
+}
+.nav_item {
+    padding: 5px 0 0 40px;
+}
+.nav_item a {
+    color: #fff;
+}
+.nav_item:first-child {
+    padding-top: 15px;
+}
